@@ -1,4 +1,4 @@
-username,password,ip_addressfrom netmiko import ConnectHandler
+from netmiko import ConnectHandler
 import getpass
 from time import strftime,gmtime
 from threading import Thread
